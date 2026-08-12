@@ -34,6 +34,19 @@ vim.keymap.set("n", "<leader>fh", builtin.help_tags, { desc = "Telescope help ta
 
 require("nvim-treesitter").install { "rust", "lua", "nix" }
 
+require('mason-tool-installer').setup {
+  ensure_installed = {
+    'stylua',
+    'nixfmt',
+    'luacheck',
+    'lua-language-server',
+    'harper-ls',
+    'rust-analyzer',
+    'nil',
+  },
+  auto_update = true,
+}
+
 -- You dont need to set any of these options. These are the default ones. Only
 -- the loading is important
 require("telescope").setup {

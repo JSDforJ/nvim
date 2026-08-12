@@ -29,6 +29,7 @@ return {
     "stevearc/conform.nvim",
     opts = {},
   },
+  'WhoIsSethDaniel/mason-tool-installer.nvim',
   "mfussenegger/nvim-lint",
   { "nvim-telescope/telescope-fzf-native.nvim", build = "make" },
   {
