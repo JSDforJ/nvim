@@ -78,6 +78,7 @@ require("mason-tool-installer").setup {
     "harper-ls",
     "rust-analyzer",
     "nil",
+    "typescript-language-server",
     "prettierd",
     "eslint_d",
     "htmx-lsp",
@@ -112,6 +113,7 @@ require("conform").setup {
     rust = { "rustfmt" },
     nix = { "nixfmt" },
     javascript = { "prettierd" },
+    js = { "prettierd" },
     html = { "prettierd" },
     json = { "prettierd" },
 
@@ -131,6 +133,7 @@ require("lint").linters_by_ft = {
   rust = { "clippy" },
   html = { "eslint_d" },
   javascript = { "eslint_d" },
+  js = { "eslint_d" },
   json = { "jsonlint" },
 }
 
