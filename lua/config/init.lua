@@ -130,7 +130,6 @@ require("conform").setup {
 
 require("lint").linters_by_ft = {
   lua = { "luacheck" },
-  rust = { "clippy" },
   html = { "eslint_d" },
   javascript = { "eslint_d" },
   js = { "eslint_d" },
