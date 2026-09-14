@@ -31,6 +31,12 @@ return {
     },
     version = "^1.0.0", -- optional: only update when a new 1.x version is released
   },
+  {
+    "j-hui/fidget.nvim",
+    opts = {
+      -- options
+    },
+  },
   "rafamadriz/friendly-snippets",
   {
     "saghen/blink.cmp",
