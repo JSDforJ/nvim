@@ -8,6 +8,7 @@ return {
     -- use opts = {} for passing setup options
     -- this is equivalent to setup({}) function
   },
+  "windwp/nvim-ts-autotag",
   {
     "nvim-treesitter/nvim-treesitter",
     lazy = false,

@@ -67,7 +67,7 @@ map("n", "<A-p>", "<Cmd>BufferPin<CR>", opts)
 -- Close buffer
 map("n", "<A-c>", "<Cmd>BufferClose<CR>", opts)
 
-require("nvim-treesitter").install { "rust", "lua", "nix" }
+require("nvim-treesitter").install { "rust", "lua", "nix", "html" }
 
 require("mason-tool-installer").setup {
   ensure_installed = {
@@ -82,6 +82,9 @@ require("mason-tool-installer").setup {
     "prettierd",
     "eslint_d",
     "htmx-lsp",
+    "html-lsp",
+    "css-lsp",
+    "tailwindcss-language-server",
     "jsonlint",
   },
   auto_update = true,
